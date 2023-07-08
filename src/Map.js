@@ -74,7 +74,7 @@ function MapComponent() {
 
   }, []);
 
-  return <div style={{ height: 1100 }} ref={mapElement}></div>;
+  return <div style={{ height: 900 }} ref={mapElement}></div>;
 }
 
 export default MapComponent;

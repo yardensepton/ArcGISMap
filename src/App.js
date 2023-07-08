@@ -1,6 +1,5 @@
 import React from 'react';
 import MapComponent from './Map';
-import './App.css';
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
       <link rel="stylesheet" href="https://js.arcgis.com/4.27/esri/themes/light/main.css"></link>
       <div id="viewDiv">
         <MapComponent />
+        
       </div>
     </div>
   );
