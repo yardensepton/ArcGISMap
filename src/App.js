@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import MapComponent from './Map';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <link rel="stylesheet" href="https://js.arcgis.com/4.27/esri/themes/light/main.css"></link>
+      <div id="viewDiv">
+        <MapComponent />
+      </div>
     </div>
   );
 }
-
 export default App;
